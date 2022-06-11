@@ -3,7 +3,7 @@ A Meal-Planner Web Tool
 
 Technology used -
 HTML, CSS, JAVASCRIPT,
-React-Js (no reloading),
+React-Js,
 FireBase DataBase (FireStore)
 
 Features-
