@@ -11,6 +11,7 @@ Login - Logout Functionality,
 Meal Planner Tool,
 Responsive to Mobile and Desktop View,
 Single Page Application,
+Authentication,
 No Reloading of Web Page
 
 Tap here to view the Project -
