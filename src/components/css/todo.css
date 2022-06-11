@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: #83f590;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #36f4e1;
+}
+nav a{
+    margin-left: -45px;
+    /* padding-right: 10px; */
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 10px;
+    /* background-color: #1985ff; */
+    color: #000000;
+    text-decoration: none;
+}
+#me {
+    width: 60%;
+    height: 40px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    right: 20px;
+}
+.nav-links ul li a{
+    color: black ;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0%;
+    border: none;
+    font-weight: normal;
+    /* background-color: transparent; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.add{
+    background-color: #1bf496;
+    width: 40%;
+    height: 40px;
+}
+.add :hover{
+    background-color: #36f478;
+}
+.but{
+    width: 90px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+}
+.but:hover{
+    background-color: transparent;    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+@media (max-width : 420px) {
+    #me{
+        height: 30px;
+    }
+    .i{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .nav-links ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: none;
+        font-weight: normal;
+        /* background-color: transparent; */
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .but {
+        width: 90px;
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 40px;
+        background-color: transparent;
+        border-radius: 0px;
+        border: none;
+    }
+    
+    
+}

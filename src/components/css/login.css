@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(245, 222, 170);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 25%;
+    height: 60%;
+    border : 0px solid;
+    background-color: rgb(173, 250, 237);
+    border-radius: 15px 0px 0px 15px;
+}
+.log{
+    width: 40%;
+    height : 60%;
+    border: 0px solid;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+input{
+    height: 10%;
+    width: 70%;
+    margin: 6px 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    height: 10%;
+    width: 70%;
+}
+/* .na{
+    height: 10%;
+    width: 70%;
+} */
+
+ h1{
+    margin: 10px 0px 30px 0px;
+}
+button{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(75, 160, 49);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+p{
+    font-size: 19px;
+    font-family: cursive;
+}
+.main{
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.complete{
+    text-decoration: line-through;
+}
+#logi{
+    color : black;
+}
+
+@media (max-width : 420px) {
+
+    .box{
+       display: none;
+    }
+    .log{
+    width: 70vw;
+    height : 70vh;
+    border: 0px solid;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+    font-weight: normal;
+    /* background-color: transparent; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.but {
+    width: 90px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+}
+
+}
