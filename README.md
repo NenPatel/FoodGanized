@@ -9,6 +9,7 @@ FireBase DataBase (FireStore)
 Features-
 Login - Logout Functionality,
 Meal Planner Tool,
+Responsive to Mobile and Desktop View,
 Single Page Application,
 No Reloading of Web Page
 
